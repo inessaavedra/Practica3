@@ -1,0 +1,123 @@
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulario de contacto</title>
+    <link rel="icon" href="logo.ico">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
+
+</head>
+
+
+<body>
+
+<div class="container">
+    <h2>Rellena tu información y sube tu CV</h2>
+    <img src="https://i0.wp.com/www.tecuentotv.es/wp-content/uploads/2021/04/06-CUADRO-3-LOGO-TELEFONICA-NUEVO.jpg?fit=1134%2C416&ssl=1" width="600" height="300" class="img-fluid" alt="">
+
+
+    <form class="was-validated">
+    <div class="mb-3">
+
+        <label for="validationTextarea" class="form-label">¿Qué crees que aportarías a Telefonica?</label>
+        <textarea class="form-control is-invalid" id="validationTextarea" placeholder="Creo que..." required></textarea>
+        <div class="invalid-feedback">
+            Este campo es obligatorio.
+        </div>
+    </div>
+
+    <div class="form-check mb-3">
+        <input type="checkbox" class="form-check-input" id="validationFormCheck1" required>
+        <label class="form-check-label" for="validationFormCheck1">Confimo que no soy un robot</label>
+        <div class="invalid-feedback">Este campo es obligatorio</div>
+    </div>
+
+    <div class="form-check">
+        <input type="radio" class="form-check-input" id="validationFormCheck2" name="radio-stacked" required>
+        <label class="form-check-label" for="validationFormCheck2">Sin experiencia previa</label>
+    </div>
+    <div class="form-check mb-3">
+        <input type="radio" class="form-check-input" id="validationFormCheck3" name="radio-stacked" required>
+        <label class="form-check-label" for="validationFormCheck3">Experiencia previa</label>
+        <div class="invalid-feedback">Este campo es obligatorio</div>
+    </div>
+
+    <div class="mb-3">
+        <select class="form-select" required aria-label="select example">
+            <option value="">Estudios académicos</option>
+            <option value="1">Graduado</option>
+            <option value="2">Posgraduado</option>
+            <option value="3">Ninguno o prefiero no decir </option>
+        </select>
+        <div class="invalid-feedback">Este campo es obligatorio</div>
+    </div>
+
+    <div class="mb-3">
+        <input type="file" class="form-control" aria-label="file example" required>
+        <div class="invalid-feedback">Este campo es obligatorio</div>
+    </div>
+
+    <div class="mb-3">
+        <button class="btn btn-primary" type="submit" disabled>Enviar</button>
+    </div>
+</form>
+
+
+  <a  href="index.html">Volver atras</a>
+</div>
+</body>
+<footer class="bg-light text-center text-white">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+        <!-- Section: Social media -->
+        <section class="mb-4">
+            <!-- Facebook -->
+            <a
+                    class="btn btn-primary btn-floating m-1"
+                    style="background-color: #3b5998;"
+                    href="https://es-es.facebook.com/telefonica/"
+                    role="button"
+            ><i class="fab fa-facebook-f"></i
+            ></a>
+
+            <!-- Twitter -->
+            <a
+                    class="btn btn-primary btn-floating m-1"
+                    style="background-color: #55acee;"
+                    href="https://twitter.com/telefonica/"
+                    role="button"
+            ><i class="fab fa-twitter"></i
+            ></a>
+
+            <!-- Instagram -->
+            <a
+                    class="btn btn-primary btn-floating m-1"
+                    style="background-color: #ac2bac;"
+                    href="https://www.instagram.com/telefonica/?hl=es"
+                    role="button"
+            ><i class="fab fa-instagram"></i
+            ></a>
+
+            <!-- Linkedin -->
+            <a
+                    class="btn btn-primary btn-floating m-1"
+                    style="background-color: #0082ca;"
+                    href="https://www.linkedin.com/company/telef%C3%B3nica/?originalSubdomain=es"
+                    role="button"
+            ><i class="fab fa-linkedin-in"></i
+            ></a>
+            <!-- Github -->
+
+        </section>
+        <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2022 Copyright:
+        <a class="text-white" href="https://mdbootstrap.com/">Telefonica.com</a>
+    </div>
+    <!-- Copyright -->
+</footer>
+</html>
